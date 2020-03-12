@@ -22,3 +22,13 @@ Configura o Roteador
 -> Colocar ip nas interfaces ultilizadas
 -> Colocar a Mascara sub-rede de cada intrface ultilizada
 
+Fazer os testes
+-> Teste de ping 
+-> Testar o SSH
+
+Subir os arquivos para o GitHub
+-> Criar um repositorio no seu perfil do GitHub
+-> Criar uma pasta para os arquivos que serão enviados para o GitHub
+-> Colocar os arquivos dentro da pasta  
+-> Subir os arquivo dentro do repositorio  
+

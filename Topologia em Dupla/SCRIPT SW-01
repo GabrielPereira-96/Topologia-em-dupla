@@ -1,0 +1,22 @@
+enable
+configure terminal
+hostname SW-01
+enable secret GABRIEL*Enable
+ip domain-name 1rede.local
+crypto key generate rsa general-key modulus 1024
+line vty 0 15
+transport input ssh
+password GABRIEL*vty
+login
+line console 0
+password GABRIEL*Console
+login
+end
+configure terminal
+interface vlan 1
+ip address 192.168.0.254 255.255.255.0
+no shutdown
+service password-encryption
+exit
+end
+wr

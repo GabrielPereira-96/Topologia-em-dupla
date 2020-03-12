@@ -1,0 +1,24 @@
+Montar a poc no packet tracer
+-> Montar duas redes distintas 
+-> Configurar as redes
+
+Configurar os conputadores 
+-> conectar o computdor no swithe
+-> colocar o ip 
+-> colocar a mascara sub-rede
+-> colocar o gateway padrão
+
+Configurar os swithes
+-> Trocar o host name
+-> Colocar senha na Eneble 
+-> Colocar senha no Console
+-> Mudar o nome do dominio
+-> Configurar a chave da SSH 
+-> Colocar senha na VTY
+-> Encriptar todas as senhas 
+
+Configura o Roteador
+-> Mudar o host name 
+-> Colocar ip nas interfaces ultilizadas
+-> Colocar a Mascara sub-rede de cada intrface ultilizada
+

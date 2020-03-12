@@ -13,6 +13,9 @@ password GABRIEL*Console
 login
 end
 configure terminal
+username GABRIEL.LOCAL privilege 15 secret GABRIEL*LOCAL
+line vty 0 15
+login local
 interface vlan 1
 ip address 172.16.0.254 255.255.0.0
 no shutdown

@@ -10,7 +10,7 @@ password GABRIEL*vty
 login
 line console 0
 password GABRIEL*Console
-login
+login local
 end
 configure terminal
 username GABRIEL.LOCAL privilege 15 secret GABRIEL*LOCAL
